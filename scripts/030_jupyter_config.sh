@@ -42,7 +42,7 @@ _EOF
 	touch /var/log/python_notebook.log
 	echo "mkdir -p /workspace" >> /etc/init.d/start_jupyter.sh
 	echo "cd /workspace" >> /etc/init.d/start_jupyter.sh
-	echo "nohup ipython notebook --config=/root/.ipython/profile_default/ipython_notebook_config.py > /var/log/python_notebook.log &" >> /etc/init.d/start_jupyter.sh
+	echo "nohup jupyter notebook --allow-root --config=/root/.ipython/profile_default/ipython_notebook_config.py &> /var/log/python_notebook.log &" >> /etc/init.d/start_jupyter.sh
 	/etc/init.d/start_jupyter.sh
 
 	echo "Jupyter notebook started"
