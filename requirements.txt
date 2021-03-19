@@ -6,7 +6,7 @@ cycler==0.10.0
 decorator==4.0.9
 deepdiff==3.1.0
 elasticsearch==2.3.0
-Jinja2==2.8
+Jinja2==2.11.3
 joblib==0.9.4
 jsonschema==2.5.1
 justext==2.2.0
