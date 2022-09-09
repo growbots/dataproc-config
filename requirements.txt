@@ -12,7 +12,7 @@ jsonschema==2.5.1
 justext==2.2.0
 langdetect==1.0.5
 MarkupSafe==0.23
-mistune==0.7.2
+mistune==0.8.1
 mmh3==2.3.1
 nameparser==0.3.15
 nbconvert==4.2.0
